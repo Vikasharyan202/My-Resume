@@ -9,7 +9,7 @@ body{
     font-size: 20px;
     width: 100%;
     min-height: 100vh;
-    color: green;
+    color: rgb(34, 31, 31);
 }
 
 /**
@@ -56,13 +56,13 @@ body{
 *! styling about main
 **/
 
-main:nth-child(2n){
+/* .main:nth-child(2n){
     background-color: #676363;
 }
 
-main:nth-child(2n-1){
+.main:nth-child(2n+1){
     background-color: #915656;
-}
+} */
 
 /**
 *! styling of About section
@@ -93,7 +93,7 @@ p{
 **/
 
 .section{
-    height: 50vh;
+    height: 65vh;
     margin-top: 5vh;
 }
 
@@ -102,8 +102,10 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 4vh;
 }
+
+
 
 .icon>img{
     width: 80px;
@@ -120,7 +122,8 @@ p{
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 4vh;
+    margin-top: 5vh;
 }
 
 [class ^= "skill_"]{
@@ -133,6 +136,20 @@ p{
     font-size: 30px;
 }
 
+/**
+*! Style of Education section
+**/
+
+.section_education{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
 
 
+
+[class ^= "section_education_"]{
+    
+}
 
